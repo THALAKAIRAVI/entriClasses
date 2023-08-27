@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        table,th,td{
+            border: 5px solid brown;
+        }
+        table{
+        width: 100%;
+        border-collapse: collapse;
+
+        }
+        th{
+            padding: 10px;
+            color: green;
+            background-color: silver;
+
+        }
+        td{
+            text-align: center;
+            color: blueviolet;
+        }
+        .name-in-td{
+            text-transform:uppercase;
+            font-family: cursive;
+        }
+        .name-td{
+            background-color:pink;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <h2>let's create table !</h2>
+    <table>
+        <tr>
+            <th>sno.</th>
+            <th>name</th>
+            <th>phno</th>
+            <th>instagram id</th>
+        </tr>
+       
+       
+        <tr>
+            <td >1</td>
+            <td class="name-in-td">apc</td>
+            <td>12345</td>
+            <td>apc_xyz</td>
+        </tr>
+        <tr class="name-td">
+            <td>2</td>
+            <td class="name-in-td bg-change"> apcd</td>
+            <td>6789</td>
+            <td>apc_xyz</td>
+        </tr>
+        
+    </table>
+    
+</body>
+</html>
